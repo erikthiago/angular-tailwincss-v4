@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-tailwindcss-v4:build:production"
+              "buildTarget": "angular-tailwindcss-v4:build:production"
             },
             "development": {
-              "browserTarget": "angular-tailwindcss-v4:build:development"
+              "buildTarget": "angular-tailwindcss-v4:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-tailwindcss-v4:build"
+            "buildTarget": "angular-tailwindcss-v4:build"
           }
         },
         "test": {
